@@ -1,0 +1,11 @@
+base_url: "https://automationexercise.com"
+browser: "chrome"          # chrome | firefox
+headless: false            # set true to run without opening a visible browser
+implicit_wait: 5
+explicit_wait: 15
+
+# Replace these with a real account you create on automationexercise.com
+# (Signup / Login -> Signup -> fill the form). Needed only for the
+# "valid login" test. The invalid-login test does not need this.
+valid_email: "themythicalasteroid@gmail.com"
+valid_password: "87654321@Aa"
